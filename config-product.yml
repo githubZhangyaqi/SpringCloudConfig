@@ -10,7 +10,7 @@ mybatis:
   type-aliases-package: com.cloud
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: dev # 开发环境
+  profiles: prod # 开发环境
   application:
     name: microservice-product-config			# ******服务名*******
   datasource:
